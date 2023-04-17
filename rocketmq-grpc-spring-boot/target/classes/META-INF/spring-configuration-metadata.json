@@ -1,0 +1,115 @@
+{
+  "groups": [
+    {
+      "name": "rocketmq",
+      "type": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties"
+    },
+    {
+      "name": "rocketmq.producer",
+      "type": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$Producer",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties",
+      "sourceMethod": "getProducer()"
+    },
+    {
+      "name": "rocketmq.simple-consumer",
+      "type": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties",
+      "sourceMethod": "getSimpleConsumer()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rocketmq.producer.access-key",
+      "type": "java.lang.String",
+      "description": "The property of \"access-key\".",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$Producer"
+    },
+    {
+      "name": "rocketmq.producer.endpoints",
+      "type": "java.lang.String",
+      "description": "Proxy address and port list",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$Producer"
+    },
+    {
+      "name": "rocketmq.producer.request-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$Producer"
+    },
+    {
+      "name": "rocketmq.producer.secret-key",
+      "type": "java.lang.String",
+      "description": "The property of \"secret-key\".",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$Producer"
+    },
+    {
+      "name": "rocketmq.producer.ssl-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$Producer"
+    },
+    {
+      "name": "rocketmq.producer.topic",
+      "type": "java.lang.String",
+      "description": "topic is used to prefetch the route",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$Producer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.access-key",
+      "type": "java.lang.String",
+      "description": "The property of \"access-key\".",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.await-duration",
+      "type": "java.lang.Integer",
+      "description": "awaitDuration of consumer.",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.consumer-group",
+      "type": "java.lang.String",
+      "description": "Group name of consumer.",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.endpoints",
+      "type": "java.lang.String",
+      "description": "Proxy address and port list",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.filter-expression-type",
+      "type": "java.lang.String",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.request-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.secret-key",
+      "type": "java.lang.String",
+      "description": "The property of \"secret-key\".",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.ssl-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.tag",
+      "type": "java.lang.String",
+      "description": "Tag  of consumer.",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    },
+    {
+      "name": "rocketmq.simple-consumer.topic",
+      "type": "java.lang.String",
+      "description": "Topic name of consumer.",
+      "sourceType": "org.apache.rocketmq.grpc.autoconfigure.RocketMQProperties$SimpleConsumer"
+    }
+  ],
+  "hints": []
+}
